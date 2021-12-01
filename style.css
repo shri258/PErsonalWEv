@@ -1,0 +1,141 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    color: #fff44f;
+    font-size: 70px;
+    margin: 50px auto 0 auto;
+    font-family: 'Amaranth', sans-serif;
+}
+h2{
+     color:#fff44f;
+     font-size:40px;
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Roboto Slab', serif;
+}
+h3{
+    color:#ff0000;
+     font-size:20px;
+     font-family: 'Amaranth', sans-serif;
+}
+.top{
+    background-color: #6bff;
+    max-height: 620px;
+   position: relative;
+   padding-top: 100px;
+}
+#sky1{
+   max-width:180px;
+   max-height: 140px;
+   position: absolute;
+   right: 270px;
+   top: 30px;
+}
+#sky2{
+    max-width:180px;
+    max-height: 140px;
+    position:absolute;
+    left: 280px;
+    bottom:330px;
+ }
+ #mount{
+     width: 550px;
+     height: 480px;
+     position: relative;
+     bottom: 15px;
+ }
+.middle{
+    padding-top:100px;
+}
+.profile{
+        width: 200px;
+        height: 200px;
+        margin-top: 120px;
+}
+p{
+    font-size: 18px;;
+        color:#000000;
+    font-family: 'Inconsolata', monospace;
+}
+hr{
+    border-top:7px dotted #d9f5f5;
+    width: 90px;
+    margin: 100px auto;
+}
+.skillno1{
+    width: 600px;
+    margin: 100px auto 0px auto;
+    text-align: left;
+    line-height: 30px;
+}
+.skill1{
+    position: absolute;
+    top: 1570px;
+    left: 240px;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.para{
+    width: 780px;
+    margin: 50px auto 50px auto;
+    line-height: 30px;
+}
+.links{
+    text-decoration: none;
+    color:#11999e;
+    font-size: 18px;
+    margin: 0px 30px;
+}
+.links:hover{
+        color: #eaf6f6;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 7px;
+    right:5px ;
+}
+.copyright{
+    margin-top: 30px;
+    color: #eaf6f6;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* ----------------------Button Design------------------------ */
+.myButton {
+	box-shadow: 7px 7px 15px -5px #276873;
+	background:linear-gradient(to bottom, #66bfbf 5%, #408c99 100%);
+	background-color:#66bfbf;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:12px 27px;
+	text-decoration:none;
+	text-shadow:6px 6px 3px #3d768a;
+    transition: 200ms ease-in;
+    margin-bottom: 80px;
+}
+.myButton:hover {
+    transform: scale(1.1);
+	background:linear-gradient(to bottom, #408c99 5%, #66bfbf 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom{
+
+        width:98.9vw;
+        height: 90px;
+        padding: 50px 0px 20px;
+        background: #00ff7f; //bottom
+}
